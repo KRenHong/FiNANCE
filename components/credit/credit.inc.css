@@ -1,16 +1,11 @@
 #hero {
     width: 100%;
     height: calc(100vh - 70px);
-    max-height: 450px;
+    max-height: 1000px;
     background-color: rgba(9, 9, 9, 0.8);
     overflow: hidden;
     position: relative;
   }
-
-  .carousel-item active{
-    max-width: 1200px;
-  }
-
 
   .body .container {
     max-width: 1200px;
@@ -19,9 +14,10 @@
     padding: 15px;
   }
 
-  .body .img{
-    display: grid;
-    place-items: center;
+  .body .imgMain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .body .container img{
