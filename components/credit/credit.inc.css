@@ -1,0 +1,63 @@
+#hero {
+    width: 100%;
+    height: calc(100vh - 70px);
+    max-height: 450px;
+    background-color: rgba(9, 9, 9, 0.8);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel-item active{
+    max-width: 1200px;
+  }
+
+
+  .body .container {
+    max-width: 1200px;
+    background-color: #f6f9fc;
+    margin: 40px auto;
+    padding: 15px;
+  }
+
+  .body .img{
+    display: grid;
+    place-items: center;
+  }
+
+  .body .container img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+    display: inline-flex;
+  }
+
+
+  .body .container h2{
+    padding: 15px;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid #7691ad;
+    border-radius: 10px;
+  }
+
+  .body .container2{
+    max-width: 1200px;
+    background-color: #f6f9fc;
+    margin: 40px auto;
+    padding: 15px;
+  }
+
+  .body .container2 img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+    display: inline-flex;
+  }
+
+  .body .container2 h2{
+    padding: 15px;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid #7691ad;
+    border-radius: 10px;
+  }
