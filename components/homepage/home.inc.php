@@ -127,9 +127,9 @@
         </div>
       </div>
       <div class="card mx-auto col-md-2 col-sm-6 mb-3 mx-3 shadow">
-        <img src="img/bg-home.png" class="card-img" alt="...">
+        <img src="img/profileLiew.jpg" class="card-img" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">SHERWYND LIEW LI-YUAN</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
         <div class="card-footer bg-warning">
@@ -158,4 +158,4 @@
       </div>
     </div>
   </section>
-</div>  
+</div>

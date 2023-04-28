@@ -8,23 +8,11 @@
 
         <div class="carousel-inner" role="listbox">
 
-<<<<<<< Updated upstream
-=======
-        <link rel="stylesheet" href="retirement.inc.css">
-
->>>>>>> Stashed changes
         <!-- Slide 1 -->
         <div
             class="carousel-item active"
-            style="background-image: url(img/bg-retirement.jpg); display = flex ; background-position: center">   
+            style="background-image: url(img/retirement.gif); display = flex ; background-position: center">   
             <div class= "carousel-container">
-<<<<<<< Updated upstream
-                <h2 id="heroTitle" class="animate__animated animate__fadeInDown">R<span id="heroTitle-2">etirement </span>P<span id="heroTitle-2">lanning</span></h2>
-                
-                 
-
-                <div class= "container">
-=======
                 <h2 id="heroTitle" class="animate__animated animate__fadeInDown">R<span id="heroTitle-2">etirement </span>P<span id="heroTitle-2">lanning</span></h2> 
                 
                 <p class="definitiontext">The process of determining your financial goals and preparing a strategy to achieve them in your retirement years. This involves analyzing your current financial situation, estimating your future income and expenses, and making decisions about how to allocate your resources to maximize your retirement income and achieve your retirement goals. </p>
@@ -32,18 +20,6 @@
                 </div>
             </div>
         </div>
->>>>>>> Stashed changes
-
-        <!-- Slide 2 -->
-        <div class="body">
-            <div class="container">
-                <div class="content">
-                    <h1 class="title">Why Plan For Retirement Early?</h1>
-                    <p class="detail"></p>
-                </div>
-            </div>
-        </div>
-    </section>
 
         <!-- Slide 2 -->
     <section class="body">
