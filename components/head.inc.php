@@ -21,16 +21,13 @@
   <!-- Animate.css -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="components/homepage/home.inc.css">
-  <link rel="stylesheet" href="components/inflation/inflation.inc.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
-
-
-</head>
-
-<body>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="components/homepage/home.inc.css">
+    <link rel="stylesheet" href="components/inflation/inflation.inc.css">
+    <link rel="stylesheet" href="components/retirement/retirement.inc.css"></link>
+    <link rel="stylesheet" href="components/credit/credit.inc.css"></link>
+  </head>
+  <body>
 
   <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
