@@ -28,7 +28,7 @@
     
         <!-- Slide 2 -->
     <section class="body">
-    <img src="img/score table.jpg">
+    <img src="img/score table.jpg" class="imgMain">
         <div class="container">
             <img src="img/credit-logo.png">
             <h2 id="contentTitle" >WHAT IS FICO Score ? </h2>
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <img src="img/fico.png">
+        <img src="img/fico.png" class="imgMain">
 
         <div class="container2">
         <img src="img/credit-logo.png">
@@ -52,6 +52,6 @@
             </div>
         </div>
 
-        <img src="img/vantage.png">
+        <img src="img/vantage.png" class="imgMain">
 
     </section>
