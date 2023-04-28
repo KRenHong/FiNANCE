@@ -36,7 +36,7 @@
               <a class="nav-link" href="credit.php">CREDIT SCORES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.php">ABOUT US</a>
+              <a class="nav-link" href="#group-member">ABOUT US</a>
             </li>
           </ul>
         </div>
