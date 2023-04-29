@@ -1,0 +1,77 @@
+.thumbnail{
+    width: 100%;
+    object-fit: cover;
+    justify-content: center;
+    height: 300px      
+}
+
+.video-title{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.video-author , .video-stats{
+    font-size: 14px;
+    color: #111;
+}
+.video-stats span{
+    color: #111;
+    font-weight: bold;
+}
+.video-stats{
+    margin-bottom: 10px;
+}
+.video-author{
+    margin-bottom: 4px;
+}
+.video-info-grid{
+    padding: 10px;
+    background-color: white;
+    height: 150px;
+}
+
+
+
+.profile-pic{
+    width: 80%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+.thumbnail-row{
+    
+    position: relative;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 40px;
+
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+
+}
+.video-preview{
+    cursor: pointer;
+}
+.video-preview:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
