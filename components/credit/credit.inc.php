@@ -28,104 +28,82 @@
     
         <!-- Slide 2 -->
     <section class="body">
-    <img src="img/score table.jpg" class="imgMain">
-
-        <div class="wrapper">
-          <div class="collapsible">
-            <label>WHAT IS FICO Score ?</label>
-            <div class="collapisble-text">
-              <h2>VantageScore is a newer credit-scoring model created by the three major credit bureaus as an alternative to FICO. Like FICO, VantageScore has been updated several times. While VantageScore initially had a 501-900 scale, VantageScore 3.0 changed the grading scale to match FICO's, using a 300-850 scale. <br><br>
-                Your VantageScore can be based on any of your three credit reports. It uses a slightly different weighting for factors than your FICO score.</h2>
-                <p>
-                  detail here
-                  </p>
-            </div>            
-          </div>
+      <div class="container">
+        
+        <div class="bubble">
+          <span style="--i:11"></span>
+          <span style="--i:12"></span>
+          <span style="--i:21"></span>
+          <span style="--i:10"></span>
+          <span style="--i:14"></span>
+          <span style="--i:23"></span>
+          <span style="--i:18"></span>
+          <span style="--i:16"></span>
+          <span style="--i:19"></span>
+          <span style="--i:20"></span>
+          <span style="--i:22"></span>
+          <span style="--i:25"></span>
+          <span style="--i:18"></span>
+          <span style="--i:21"></span>
+          <span style="--i:15"></span>
+          <span style="--i:13"></span>
+          <span style="--i:26"></span>
+          <span style="--i:17"></span>
+          <span style="--i:13"></span>
+          <span style="--i:28"></span>
+          <span style="--i:11"></span>
+          <span style="--i:12"></span>
+          <span style="--i:21"></span>
+          <span style="--i:10"></span>
+          <span style="--i:14"></span>
+          <span style="--i:23"></span>
+          <span style="--i:18"></span>
+          <span style="--i:16"></span>
+          <span style="--i:19"></span>
+          <span style="--i:20"></span>
+          <span style="--i:22"></span>
+          <span style="--i:25"></span>
+          <span style="--i:18"></span>
+          <span style="--i:21"></span>
+          <span style="--i:15"></span>
+          <span style="--i:13"></span>
+          <span style="--i:26"></span>
+          <span style="--i:17"></span>
+          <span style="--i:13"></span>
+          <span style="--i:28"></span>
         </div>
+        <div class="row">
+          <a href="#" style="--clr:#3e9aae"><span>Credit Score</span><i></i></a>
 
-        <img src="img/fico.png" class="imgMain">
-
-        <div class="wrapper">
-          <div class="collapsible">
-            <label>WHAT IS VANTAGE Score ?</label>
-            <div class="collapisble-text">
-              <h2>VantageScore is a newer credit-scoring model created by the three major credit bureaus as an alternative to FICO. Like FICO, VantageScore has been updated several times. While VantageScore initially had a 501-900 scale, VantageScore 3.0 changed the grading scale to match FICO's, using a 300-850 scale. <br><br>
-                Your VantageScore can be based on any of your three credit reports. It uses a slightly different weighting for factors than your FICO score.</h2>
-                <p>
-                  detail here
-                  </p>
-            </div>            
+          <img src="img/score table.jpg" class="imgSub">
+        
+          <div class="wrapper">
+            <div class="collapsible">
+              <input type="checkbox" id="collapsible1">
+              <label for="collapsible1">WHAT IS FICO Score ?</label>
+              <div class="collapsible-text">
+                <h2>FICO SCORE</h2>
+                <p>A FICO score is a credit score created by the Fair Isaac Corporation (FICO). Lenders use borrowers’ FICO scores along with other details on borrowers’ credit reports to assess credit risk and determine whether to extend credit.<br><br>FICO scores take into account data in five areas to determine a borrower's credit worthiness: payment history, the current level of indebtedness, types of credit used, length of credit history, and new credit accounts.</p>
+              </div>            
+            </div>
+            <img src="img/fico.png" class="imgSub1">
           </div>
-        </div>
 
-        <img src="img/vantage.png" class="imgMain">
+          
 
-    </section>
-
-    <!-- Hyperlink Video -->
-    <section class="bg-warning py-5">
-  <div class="container">
-    <h2 class="text-dark mb-4 text-center">Inflation: Effects &amp; Control Measures</h2>
-    <div id="inflationCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card mb-3 border-0">
-                <img src="https://i.ytimg.com/vi/xPe7q-U3XBw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhWwVUY37qvICyOwaMlbNSyY1lLQ" class="card-img-top" alt="Effects of Inflation">
-                <div class="card-body">
-                  <h5 class="card-title">Effects of Inflation</h5>
-                  <p class="card-text">Inflation affects various aspects of an economy, including purchasing power, income distribution, savings, and investments.</p>
-                  <a href="https://www.youtube.com/watch?v=xPe7q-U3XBw" class="btn btn-dark">Learn more</a>
-                </div>
-              </div>
+          <div class="wrapper1">
+            <div class="collapsible">
+              <input type="checkbox" id="collapsible2">
+              <label for="collapsible2">WHAT IS VANTAGE Score ?</label>
+              <div class="collapsible-text">
+                <h2>VANTAGE SCORE</h2>
+                  <p>VantageScore is a newer credit-scoring model created by the three major credit bureaus as an alternative to FICO.<br><br> Like FICO, VantageScore has been updated several times. While VantageScore initially had a 501-900 scale, VantageScore 3.0 changed the grading scale to match FICO's, using a 300-850 scale.<br><br>VantageScore can be based on any of your three credit reports. It uses a slightly different weighting for factors than your FICO score.</p>
+              </div>            
             </div>
-            <div class="col-md-6">
-              <div class="card mb-3 border-0">
-                <img src="https://i.ytimg.com/vi/F54-D_9ci0I/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDj85PLX00Xx5m4I6ziE52EXHVKaw" class="card-img-top" alt="Control Measures">
-                <div class="card-body">
-                  <h5 class="card-title">Measures to Control Inflation</h5>
-                  <p class="card-text">Governments and central banks use various measures to control inflation and stabilize the economy, such as monetary policy and fiscal policy.</p>
-                  <a href="https://www.youtube.com/watch?v=F54-D_9ci0I" class="btn btn-dark">Learn more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card mb-3 border-0">
-                <img src="https://i.ytimg.com/vi/7PKY2_YQFVE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAD1LlpOAesONn2wwRiptbUx1dKOw" class="card-img-top" alt="Supply-side Policies">
-                <div class="card-body">
-                  <h5 class="card-title">Supply-side Policies</h5>
-                  <p class="card-text">Policies aimed at increasing productivity and the efficient allocation of resources can help control inflation.</p>
-                  <a href="https://www.youtube.com/watch?v=7PKY2_YQFVE" class="btn btn-dark">Learn more</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card mb-3 border-0">
-                <img src="https://i.ytimg.com/vi/0xMCWr0O3Hs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4llPP6aEVCvXA-XwBFJuTQzb5vQ" class="card-img-top" alt="Incomes Policies">
-                <div class="card-body">
-                  <h5 class="card-title">Incomes Policies</h5>
-                  <p class="card-text">Wage and price controls can be implemented to directly limit the growth of prices and wages, thereby controlling inflation.</p>
-                  <a href="https://www.youtube.com/watch?v=0xMCWr0O3Hs" class="btn btn-dark">Learn more</a>
-                </div>
-              </div>
-            </div>
+            <img src="img/vantage.png" class="imgSub2">
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#inflationCarousel" data-bs-slide="prev" style="left: -150px;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#inflationCarousel" data-bs-slide="next" style="right: -150px;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      
 
-  </div>
-</section>
+    </section>

@@ -5,18 +5,167 @@
     background-color: rgba(9, 9, 9, 0.8);
     overflow: hidden;
     position: relative;
-  }
+}
 
-.wrapper {
+
+.body {
+  background-color: #0c192c;
+  
+}
+
+.body .row{
+  position: absolute;
+  margin: auto;
+  background-color: rgba(170, 168, 168, 0.5);
+}
+
+
+
+/* Bubbles Animation Effect */
+.body .container{
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.body .container .bubble{
+  position: relative;
+  display: flex;
+}
+.body .container .bubble span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #4fc3dc;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44, 
+  0 0 50px #4fc3dc, 
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(125s/var(--i));
+}
+.body .container .bubble span:nth-child(even){
+  background: #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544, 
+  0 0 50px #ff2d75, 
+  0 0 100px #ff2d75;
+}
+@keyframes animate{
+  0%{
+    transform: translateY(210vh)scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+}
+
+
+
+/* Button */
+.body .row a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: var(--clr);
+  color: var(--clr);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+  margin: 15px;
+  max-width: 300px;
+}
+.body .row a:hover{
+  background: var(--clr);
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px var(--clr);
+}
+.body .row a:before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+.body .row a span{
+  position: relative;
+  z-index: 1;
+}
+.body .row a i{
+  position: absolute;
+  inset : 0;
+  display: block;
+}
+.body .row a i::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.body .row a:hover i::before{
+  width: 20px;
+  left: 20%;
+}
+.body .row a i::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.body .row a:hover i::after{
+  width: 20px;
+  left: 80%;
+}
+
+
+
+/* Image */
+.body .imgMain{
+  max-width: 700px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Collapsible text */
+.body .wrapper {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.body .wrapper1 {
   display: flex;
   padding-top: 50px;
   justify-content: center;
 }
 
 .collapsible {
-  max-width: 450px;
+  max-width: 600px;
   overflow: hidden;
-  font-weight: 500;
+  font-weight: 600;
+  float: right;
+  margin-right: 10px;
+}
+
+.collapsible input{
+  display: none;
 }
 
 .collapsible label {
@@ -29,7 +178,9 @@
   margin-bottom: 10px;
   cursor: pointer;
   padding: 15px 0;
+  padding-left: 15px;
   border-radius: 4px;
+  font-size: 30px;
 }
 
 .collapsible label::after{
@@ -38,7 +189,12 @@
   right: 15px;
   top: 15px;
   width: 18px;
-  background: url(arrow.svg) no-repeat 0 0;
+  background: url('../../img/Rarrow.png') no-repeat 0 0;
+  transition: all 0.3s ease;
+}
+
+.collapsible input:checked + label::after{
+  transform: rotate(90deg);
 }
 
 .collapsible-text {
@@ -46,6 +202,47 @@
   overflow: hidden;
   border-radius: 4px;
   line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.3s ease;
 }
 
- 
+.collapsible-text h2{
+  text-align: center;
+}
+
+.collapsible input:checked ~ .collapsible-text{
+  max-height: 300px;
+  padding-bottom: 25px;
+  background: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08);
+  opacity: 1;
+  top: 0;
+}
+
+.collapsible-text h2{
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #1c1c6b;
+}
+
+.collapsible-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+.imgSub1 {
+  max-width: 600px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+.imgSub2 {
+  max-width: 600px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
