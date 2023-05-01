@@ -1,0 +1,289 @@
+/* #heroC {
+  width: 100%;
+  height: calc(100vh - 70px);
+  max-height: 550px;
+  background-color: rgba(9, 9, 9, 0.8);
+  overflow: hidden;
+  position: relative;
+} */
+#heroC .carousel-item.active{
+  object-fit: fill;
+  min-height: 550px;
+}
+#heroTitle-C{
+  text-align: center;
+  color: #FFCB33;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700;
+}
+#heroTitle-C2{
+  text-align: center;
+  color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#heroC p{
+  animation-delay: 0.4s;
+  text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.bodyC {
+  background-color: #0c192c;
+  
+}
+
+.bodyC .row{
+  position: absolute;
+  margin: auto;
+  background-color: rgba(170, 168, 168, 0.5);
+}
+
+
+
+/* Bubbles Animation Effect */
+.bodyC .container{
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.bodyC .container .bubble{
+  position: relative;
+  display: flex;
+}
+.bodyC .container .bubble span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #4fc3dc;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc44, 
+  0 0 50px #4fc3dc, 
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(125s/var(--i));
+}
+.bodyC .container .bubble span:nth-child(even){
+  background: #ff2d75;
+  box-shadow: 0 0 0 10px #ff2d7544, 
+  0 0 50px #ff2d75, 
+  0 0 100px #ff2d75;
+}
+@keyframes animate{
+  0%{
+    transform: translateY(210vh)scale(0);
+  }
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+}
+
+
+
+/* Button */
+.bodyC .row a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: var(--clr);
+  color: var(--clr);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+  margin: 15px;
+  max-width: 300px;
+}
+.bodyC .row a:hover{
+  background: var(--clr);
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px var(--clr);
+}
+.bodyC .row a:before{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+.bodyC .row a span{
+  position: relative;
+  z-index: 1;
+}
+.bodyC .row a i{
+  position: absolute;
+  inset : 0;
+  display: block;
+}
+.bodyC .row a i::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.bodyC .row a:hover i::before{
+  width: 20px;
+  left: 20%;
+}
+.bodyC .row a i::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.bodyC .row a:hover i::after{
+  width: 20px;
+  left: 80%;
+}
+
+
+
+/* Image */
+.bodyC .imgMain{
+  max-width: 700px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Collapsible text */
+.bodyC .wrapperM {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.bodyC .wrapper {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.bodyC .wrapper1 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.collapsible {
+  max-width: 600px;
+  overflow: hidden;
+  font-weight: 600;
+  float: right;
+  margin-right: 10px;
+}
+
+.collapsible input{
+  display: none;
+}
+
+.collapsible label {
+  position: relative;
+  font-weight: 600;
+  background: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08);
+  color: #1c1c6b;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 15px 0;
+  padding-left: 15px;
+  border-radius: 4px;
+  font-size: 30px;
+}
+
+.collapsible label::after{
+  content: "";
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 18px;
+  background: url('../../img/Rarrow.png') no-repeat 0 0;
+  transition: all 0.3s ease;
+}
+
+.collapsible input:checked + label::after{
+  transform: rotate(90deg);
+}
+
+.collapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.4;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.collapsible-text h2{
+  text-align: center;
+}
+
+.collapsible input:checked ~ .collapsible-text{
+  max-height: 300px;
+  padding-bottom: 25px;
+  background: #fff;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .1), 0 4px 11px 0 rgba(0, 0, 0, .08);
+  opacity: 1;
+  top: 0;
+}
+
+.collapsible-text h2{
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #1c1c6b;
+}
+
+.collapsible-text p{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.imgSub {
+  max-width: 600px;
+  height: 385px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+.imgSub1 {
+  max-width: 600px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+.imgSub2 {
+  max-width: 600px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}

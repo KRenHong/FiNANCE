@@ -26,8 +26,10 @@
   <link rel="stylesheet" href="components/inflation/inflation.inc.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+  <link rel="stylesheet" href="components/retirement/retirement.inc.css"></link>
+    <link rel="stylesheet" href="components/credit/credit.inc.css"></link>
 
-  <!-- add icon link -->
+      <!-- add icon link -->
   <link rel="icon" href="img/doge.gif" type="image/x-icon">
 
 </head>
