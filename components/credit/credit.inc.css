@@ -1,13 +1,40 @@
-#hero {
+/* #heroC {
   width: 100%;
   height: calc(100vh - 70px);
   max-height: 550px;
   background-color: rgba(9, 9, 9, 0.8);
   overflow: hidden;
   position: relative;
+} */
+#heroC .carousel-item.active{
+  object-fit: fill;
+  min-height: 550px;
 }
-#hero p{
+#heroTitle-C{
   text-align: center;
+  color: #FFCB33;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700;
+}
+#heroTitle-C2{
+  text-align: center;
+  color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#heroC p{
+  animation-delay: 0.4s;
+  text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
 }
 
 

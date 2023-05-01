@@ -1,12 +1,53 @@
-#hero{
+/* #heroR{
     width: 100%;
     height: calc(100vh - 70px);
-    max-height: 550px;
+    
     background-color: rgba(9, 9, 9, 0.8);
     overflow: hidden;
     position: relative;
+} */
+#heroR .carousel-item.active{
+  background-position: center;
+  min-height: 550px;
 }
-.flex-grow-1 {
+#heroR .carousel-item::before{
+  min-height: 550px;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+#heroTitle-R{
+  text-align: center;
+  color: #FFCB33;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700;
+}
+#heroTitle-R2{
+  text-align: center;
+  color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#heroR p{
+  animation-delay: 0.4s;
+  text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+}
+.bodyR .flex-grow-1 {
     background: #230a4f;
     
 }
@@ -14,13 +55,13 @@
     margin: auto;
     background-color: rgba(170, 168, 168, 0.5);
 }
-.accordion{
+.Creditaccordion{
     margin: 60px auto;
     width: 33%;
 }
 
 /* Button */
-.accordion a{
+.Creditaccordion a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,27 +78,27 @@
     margin: 15px;
     max-width: 300px;
   }
-  .accordion a:hover{
+  .Creditaccordion a:hover{
     background: var(--clr);
     letter-spacing: 0.25em;
     box-shadow: 0 0 35px var(--clr);
   }
-  .accordion a:before{
+  .Creditaccordion a:before{
     content: '';
     position: absolute;
     inset: 2px;
     background: #27282c;
   }
-  .accordion a span{
+  .Creditaccordion a span{
     position: relative;
     z-index: 1;
   }
-  .accordion a i{
+  .Creditaccordion a i{
     position: absolute;
     inset : 0;
     display: block;
   }
-  .accordion a i::before{
+  .Creditaccordion a i::before{
     content: '';
     position: absolute;
     top: 0;
@@ -68,11 +109,11 @@
     transform: translateX(-50%) skewX(325deg);
     transition: 0.5s;
   }
-  .accordion a:hover i::before{
+  .Creditaccordion a:hover i::before{
     width: 20px;
     left: 20%;
   }
-  .accordion a i::after{
+  .Creditaccordion a i::after{
     content: '';
     position: absolute;
     bottom: 0;
@@ -83,12 +124,12 @@
     transform: translateX(-50%) skewX(325deg);
     transition: 0.5s;
   }
-  .accordion a:hover i::after{
+  .Creditaccordion a:hover i::after{
     width: 20px;
     left: 80%;
   }
 
-.accordion li{
+.Creditaccordion li{
     list-style: none;
     widows: 100%;
     margin: 20px;
@@ -99,7 +140,7 @@
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),-6px -6px 10px -1px rgba(255, 255, 255, 0.15);  
     
 }
-.accordion li label{
+.Creditaccordion li label{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -118,7 +159,7 @@ input[type="radio"]{
     display: none;
 }
 
-.accordion .content{
+.Creditaccordion .content{
     color: #555;
     padding: 0 10px;
     line-height: 26px;
@@ -126,14 +167,14 @@ input[type="radio"]{
     overflow: hidden;
     transition: max-height 0.5s, padding 0.5s;
 }
-.accordion input[type="radio"]:checked + label + .content{
+.Creditaccordion input[type="radio"]:checked + label + .content{
     max-height: 400px;
     padding: 10px 10px 20px;
 }
-.accordion input[type="radio"]:checked + label::before{
+.Creditaccordion input[type="radio"]:checked + label::before{
     content: '-';
 }
-.accordion .imageretire1{
+.Creditaccordion .imageretire1{
     display: block;
     margin-left: auto;
     margin-right: auto;

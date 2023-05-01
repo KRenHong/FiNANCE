@@ -15,7 +15,7 @@
             class="carousel-item active"
             style="background-image: url(img/score.gif); background-position: center">
             <div class= "carousel-container">
-            <h2 id="heroTitle" class="animate__animated animate__fadeInDown">C<span id="heroTitle-2">redit </span>S<span id="heroTitle-2">core</span></h2>            
+            <h2 id="heroTitle-C" class="animate__animated animate__fadeInDown">C<span id="heroTitle-C2">redit </span>S<span id="heroTitle-C2">core</span></h2>            
             <div class= "container">
 
             <p class="definitiontext">A credit score is a numerical expression based on a level analysis of a person's credit files, to represent the creditworthiness of an individual. A credit score is primarily based on a credit report, information typically sourced from credit bureaus.<br><br>Credit scoring is not limited to banks. Other organizations, such as mobile phone companies, insurance companies, landlords, and government departments employ the same techniques. Digital finance companies such as online lenders also use alternative data sources to calculate the creditworthiness of borrowers. </p>
