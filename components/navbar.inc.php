@@ -24,7 +24,7 @@
               <a class="nav-link" href="inflation.php">INFLATION</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="debt.php">DEBT</a>
+              <a class="nav-link" href="news.php">NEWS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="investments.php">INVESTMENTS</a>
