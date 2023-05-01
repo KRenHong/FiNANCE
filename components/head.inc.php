@@ -27,6 +27,8 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
 
+  <!-- add icon link -->
+  <link rel="icon" href="img/doge.gif" type="image/x-icon">
 
 </head>
 
