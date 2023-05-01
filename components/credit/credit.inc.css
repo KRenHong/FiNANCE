@@ -1,19 +1,22 @@
 #hero {
-    width: 100%;
-    height: calc(100vh - 70px);
-    max-height: 650px;
-    background-color: rgba(9, 9, 9, 0.8);
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: calc(100vh - 70px);
+  max-height: 550px;
+  background-color: rgba(9, 9, 9, 0.8);
+  overflow: hidden;
+  position: relative;
+}
+#hero p{
+  text-align: center;
 }
 
 
-.body {
+.bodyC {
   background-color: #0c192c;
   
 }
 
-.body .row{
+.bodyC .row{
   position: absolute;
   margin: auto;
   background-color: rgba(170, 168, 168, 0.5);
@@ -22,18 +25,18 @@
 
 
 /* Bubbles Animation Effect */
-.body .container{
+.bodyC .container{
   position: relative;
   width: 100%;
   height: 200vh;
   overflow: hidden;
   padding-top: 10px;
 }
-.body .container .bubble{
+.bodyC .container .bubble{
   position: relative;
   display: flex;
 }
-.body .container .bubble span{
+.bodyC .container .bubble span{
   position: relative;
   width: 30px;
   height: 30px;
@@ -46,7 +49,7 @@
   animation: animate 15s linear infinite;
   animation-duration: calc(125s/var(--i));
 }
-.body .container .bubble span:nth-child(even){
+.bodyC .container .bubble span:nth-child(even){
   background: #ff2d75;
   box-shadow: 0 0 0 10px #ff2d7544, 
   0 0 50px #ff2d75, 
@@ -64,7 +67,7 @@
 
 
 /* Button */
-.body .row a{
+.bodyC .row a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,27 +84,27 @@
   margin: 15px;
   max-width: 300px;
 }
-.body .row a:hover{
+.bodyC .row a:hover{
   background: var(--clr);
   letter-spacing: 0.25em;
   box-shadow: 0 0 35px var(--clr);
 }
-.body .row a:before{
+.bodyC .row a:before{
   content: '';
   position: absolute;
   inset: 2px;
   background: #27282c;
 }
-.body .row a span{
+.bodyC .row a span{
   position: relative;
   z-index: 1;
 }
-.body .row a i{
+.bodyC .row a i{
   position: absolute;
   inset : 0;
   display: block;
 }
-.body .row a i::before{
+.bodyC .row a i::before{
   content: '';
   position: absolute;
   top: 0;
@@ -112,11 +115,11 @@
   transform: translateX(-50%) skewX(325deg);
   transition: 0.5s;
 }
-.body .row a:hover i::before{
+.bodyC .row a:hover i::before{
   width: 20px;
   left: 20%;
 }
-.body .row a i::after{
+.bodyC .row a i::after{
   content: '';
   position: absolute;
   bottom: 0;
@@ -127,7 +130,7 @@
   transform: translateX(-50%) skewX(325deg);
   transition: 0.5s;
 }
-.body .row a:hover i::after{
+.bodyC .row a:hover i::after{
   width: 20px;
   left: 80%;
 }
@@ -135,7 +138,7 @@
 
 
 /* Image */
-.body .imgMain{
+.bodyC .imgMain{
   max-width: 700px;
   display: flex;
   margin-left: auto;
@@ -144,13 +147,19 @@
 
 
 /* Collapsible text */
-.body .wrapper {
+.bodyC .wrapperM {
   display: flex;
   padding-top: 50px;
   justify-content: center;
 }
 
-.body .wrapper1 {
+.bodyC .wrapper {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.bodyC .wrapper1 {
   display: flex;
   padding-top: 50px;
   justify-content: center;
@@ -232,7 +241,12 @@
   padding-right: 15px;
 }
 
-
+.imgSub {
+  max-width: 600px;
+  height: 385px;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
 
 .imgSub1 {
   max-width: 600px;
