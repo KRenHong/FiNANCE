@@ -147,7 +147,7 @@
         </div>
       </div>
       <div class="card mx-auto col-md-2 col-sm-6 mb-3 mx-3 shadow">
-        <img src="img/bg-home.png" class="card-img" alt="..." height="250px" style="object-fit: cover;">
+        <img src="img/profile-ali.jpeg" class="card-img" alt="..." height="250px" style="object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">Alikhan</h5>
           <p class="card-text">When u gonna give me ur profile pic, u update urself lah</p>
