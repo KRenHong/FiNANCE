@@ -1,7 +1,7 @@
 <!-- credit.inc.php -->
 <div class="flex-grow-1">
     <!-- ======= Hero Section ======= -->
-    <section id="hero">
+    <section id="heroC">
       <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
         <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
