@@ -1,4 +1,4 @@
-<section>
+<section id="hero">
   <!-- Hero -->
   <div class="p-5 d-flex text-left bg-image justify-content-start align-items-center" style="
     background-image: url('img/money.gif');
@@ -55,7 +55,6 @@
                 investments. Investment involves thorough market research, analysis, and knowledge of all possible
                 investment
                 possibilities.</p>
-
 
               <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> -->
             </div>
