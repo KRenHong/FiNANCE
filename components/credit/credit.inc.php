@@ -18,7 +18,7 @@
             <h2 id="heroTitle" class="animate__animated animate__fadeInDown">C<span id="heroTitle-2">redit </span>S<span id="heroTitle-2">core</span></h2>            
             <div class= "container">
 
-            <p class="definitiontext">Credit scores are numerical values that are used by lenders and financial institutions to assess the creditworthiness of individuals and businesses. They are based on various factors, such as payment history, credit utilization, length of credit history, types of credit used, and new credit. </p>
+            <p class="definitiontext">A credit score is a numerical expression based on a level analysis of a person's credit files, to represent the creditworthiness of an individual. A credit score is primarily based on a credit report, information typically sourced from credit bureaus.<br><br>Credit scoring is not limited to banks. Other organizations, such as mobile phone companies, insurance companies, landlords, and government departments employ the same techniques. Digital finance companies such as online lenders also use alternative data sources to calculate the creditworthiness of borrowers. </p>
 
                 </div>
             </div>
@@ -27,7 +27,7 @@
 
     
         <!-- Slide 2 -->
-    <section class="body">
+    <section class="bodyC">
       <div class="container">
         
         <div class="bubble">
@@ -75,7 +75,18 @@
         <div class="row">
           <a href="#" style="--clr:#3e9aae"><span>Credit Score</span><i></i></a>
 
-          <img src="img/score table.jpg" class="imgSub">
+          <div class="wrapperM">
+            <div class="collapsible">
+              <input type="checkbox" id="collapsibleM">
+              <label for="collapsibleM">Why Need Credit Score ?</label>
+              <div class="collapsible-text">
+                <h2>CREDIT SCORE</h2>
+                <p>Your credit score determines whether you will be approved for a loan and what interest rate you will pay. <br><br>Prospective employers also check it to see whether you're a reliable person.<br><br> Service providers and utility companies may check it to decide whether you have to make a deposit.</p>
+              </div>            
+            </div>
+            <img src="img/score table.jpg" class="imgSub">
+          </div>
+          
         
           <div class="wrapper">
             <div class="collapsible">
