@@ -22,7 +22,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="components/homepage/home.inc.css">
     <link rel="stylesheet" href="components/inflation/inflation.inc.css">
-    <link rel="stylesheet" href="components/debt/video.css">
+    <link rel="stylesheet" href="components/news/video.css">
   </head>
   <body style="    background-color: rgb(245, 244, 244);">
 
