@@ -53,11 +53,14 @@
 }
 .bodyR .smalltain{
     margin: auto;
+    height: 1000px;
     background-color: rgba(95, 21, 93, 0.5);
 }
 .Creditaccordion{
-    margin: 60px auto;
+    margin: 10;
     width: 33%;
+    display: flex;
+
 }
 
 /* Button */

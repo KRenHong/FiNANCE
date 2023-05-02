@@ -120,7 +120,7 @@
         <img src="img/profile-kr.jpg" class="card-img" alt="..." height="250px" style="object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">HONG KAE REN</h5>
-          <p class="card-text">A normal homosapien who likes to dream and do. Dream and Do ! I need a longer text because this will make this card looking good although i can change height but idw 😀</p>
+          <p class="card-text">Front End Developer</p>
         </div>
         <div class="card-footer bg-warning">
           <small class="text-muted">Front-end Developer</small>
@@ -130,7 +130,7 @@
         <img src="img/profile-s.jpg" class="card-img" alt="..." height="250px" style="object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">Sherwynd</h5>
-          <p class="card-text">An Asian kid who does not have girlfriend. Failure! (speaks with asian slang)</p>
+          <p class="card-text">Front End Developer</p>
         </div>
         <div class="card-footer bg-warning">
           <small class="text-muted">Front-end Developer</small>
@@ -140,7 +140,7 @@
         <img src="img/profile-pw.jpg" class="card-img" alt="..." height="250px" style="object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">Ng Pei Wei</h5>
-          <p class="card-text">Another asian kid who always been call other people punya kid. Coz he got gf liao</p>
+          <p class="card-text">Front End Developer</p>
         </div>
         <div class="card-footer bg-warning">
           <small class="text-muted">Front-end Developer</small>
@@ -150,7 +150,7 @@
         <img src="img/profile-ali.jpeg" class="card-img" alt="..." height="250px" style="object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">Alikhan</h5>
-          <p class="card-text">This is a try to fill out some text so I will not look empty ://</p>
+          <p class="card-text">Front End Developer</p>
         </div>
         <div class="card-footer bg-warning">
           <small class="text-muted">Front-end Developer</small>

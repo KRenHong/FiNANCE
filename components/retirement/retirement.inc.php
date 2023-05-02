@@ -28,8 +28,8 @@
                 <source src="" type="img/work.mp4"></source>
             </video> -->
                 <ul class="Creditaccordion">
-                    
-                    <a href="#" style="--clr:#3e9aae"><span>Understanding</span><i></i></a>
+                    <div class="Rcontainer">
+                        <a href="#" style="--clr:#3e9aae"><span>Understanding</span><i></i></a>
                         <li>
                             <input type="radio" name="Creditaccordion" id="first" checked>
                             <label for="first">Understanding Retirement Planning</label>
@@ -38,7 +38,9 @@
                             </div>
                             <img src="img/retireplan.gif" class="imageretire1">
                         </li>
-                        <a href="#" style="--clr:#3e9aae"><span>Retirement</span><i></i></a>
+                    </div>
+                    <div class="Rcontainer">
+                    <a href="#" style="--clr:#3e9aae"><span>Retirement</span><i></i></a>
                         <li>
                             <input type="radio" name="Creditaccordion" id="second">
                             <label for="second">How Much Do You Need to Retire?</label>
@@ -48,7 +50,9 @@
                             </div>
                             <img src="img/plantoretire.gif" class="imageretire1">
                         </li>
-                        <a href="#" style="--clr:#3e9aae"><span>Planning</span><i></i></a>
+                    </div>
+                    <div class="Rcontainer">
+                    <a href="#" style="--clr:#3e9aae"><span>Planning</span><i></i></a>
                         <li>
                             <input type="radio" name="Creditaccordion" id="third">
                             <label for="third">Why Is Retirement Planning So Important?</label>
@@ -57,6 +61,18 @@
                             </div>
                             <img src="img/plan.gif" class="imageretire1">
                         </li>
+                    </div>   
+                    <div class="Rcontainer">
+                        <a href="#" style="--clr:#3e9aae"><span>Starting</span><i></i></a>
+                        <li>
+                            <input type="radio" name="Creditaccordion" id="fourth" checked>
+                            <label for="fourth">How Do I Start Planning for Retirement?</label>
+                            <div class="content">
+                                <p>Retirement planning isn't difficult. It's as easy as setting aside some money every month—every little bit counts. The easiest way is to start contributing through an employer-sponsored plan if your company offers one. You may also want to consider talking to a professional, such as a financial planner or investment broker who can steer you in the right direction. The earlier you start, the better. That's because your investments grow over time by earning interest. And you'll earn interest on that interest.</p>
+                            </div>
+                            <img src="img/retireplan.gif" class="imageretire1">
+                        </li>
+                    </div>
                 </ul>   
         </div>
     </section>
