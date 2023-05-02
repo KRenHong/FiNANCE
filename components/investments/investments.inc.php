@@ -84,12 +84,12 @@
           of investing sooner. Following are some examples of compound effects:</p>
       </div>
       <div class="col-lg-6 text-start py-3">
-        <img src="img/Compounding.webp" class="card-img" alt="...">
+        <img id="img_id" src="img/Compounding.webp" class="img-fluid" alt="...">
       </div>
     </div>
     <div class="row ">
       <div class="col-lg-6 text-start ">
-        <img src="img/start-investing.jpg" class="card-img" alt="...">
+        <img id="img_id" src="img/start-investing.jpg" class="img-fluid" alt="...">
       </div>
       <div class="col-lg-6 text-start pb-3 mb-5">
         <p class="lead">Building long-term wealth and establishing financial security require investing, which is a
