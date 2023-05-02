@@ -32,16 +32,16 @@
 <section id="main-content">
   <!-- Main Content -->
   <div class="container my-5">
-    <h1 id="main-title" class="text-center" style="
-      font-family: 'Jost', sans-serif;
-      font-size: 64px;
-      color: #FFCB33;
+    <p id="cardTitle" class="text-center" style="color:#FFCB33; font-family:'Jost', sans-serif; font-weight: 500; font-size: 48px;">Inflation</p>
+    <p id="card-subtitle" class="text-center" style="color:#FFCB33; font-family:'Jost', sans-serif; font-weight: 300; font-size: 20px">This is how the finance works</p>
+
     
-    ">Inflation</h1>
     <div class="row mt-5">
       <div class="col-md-6">
         <h3>What is Inflation?</h3>
-        <p>Inflation is a sustained increase in the general price level of goods and services in an economy over a period of time. This can lead to a decrease in the purchasing power of money and can have negative effects on individuals, businesses, and the economy as a whole.</p>
+        <p style="text-align: justify;">Inflation is a sustained increase in the general price level of goods and services in an economy over a period of time. This can lead to a decrease in the purchasing power of money and can have negative effects on individuals, businesses, and the economy as a whole. In this page we also include the causes, effects, measures and some policies about the inflation can take a look on it.</p>
+        <a class="btn btn-warning btn-lg" href="#card-carousel" role="button">Understand More</a>
+        
       </div>
       <div class="col-md-6">
         <img src="https://i.ytimg.com/vi/HQ-Kg_xgdhE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8kRvMCaZHzFww_etOm4CoCa_JlQ" class="img-fluid" alt="Inflation" width="600" height="200">
@@ -112,9 +112,11 @@
 
 </section>
 
-<section class="bg-warning py-5">
+<section id="card-carousel" class="bg-warning py-5" style="overflow-x: hidden;">
   <div class="container">
-    <h2 class="text-dark mb-4 text-center">Inflation: Effects &amp; Control Measures</h2>
+    <!-- <h2 class="text-dark mb-4 text-center">Inflation: Effects &amp; Control Measures</h2> -->
+    <p id="cardTitle" class="text-dark text-center" style="color:#FFCB33; font-family:'Jost', sans-serif; font-weight: 500; font-size: 48px;">Inflation: Effects &amp; Control Measures</p>
+    <p id="card-subtitle" class="text-dark text-center" style="color:#FFCB33; font-family:'Jost', sans-serif; font-weight: 300; font-size: 20px">Read More, Learn More</p>
     <div id="inflationCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -175,6 +177,25 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
   </div>
+</section>
+
+<section class="bg-dark justify-content-center align-items-center">
+
+
+<p id="cardTitle" class="text-center" style="color:#FFCB33; font-family:'Jost', sans-serif; font-weight: 500; font-size: 48px;">Inflation CPI Rate</p>
+<p id="card-subtitle" class="text-center" style="color:#FFCB33; font-family:'Jost', sans-serif; font-weight: 300; font-size: 20px">in each country</p>
+
+<div class="bg-dark">
+
+<div class="col-md-6 col-lg-6 mx-auto align-items-center" >
+<iframe src="https://data.oecd.org/chart/74jo" width="750" height="645" style="border: 0" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true"><a href="https://data.oecd.org/chart/74jo" target="_blank">OECD Chart: Inflation (CPI), Total / Food / Total less food, less energy, Annual growth rate (%), Annual, 2018 – 2022</a></iframe>
+
+</div>
+
+</div>
+
+
+
+
 </section>

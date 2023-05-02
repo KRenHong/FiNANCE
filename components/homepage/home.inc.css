@@ -180,3 +180,10 @@
     font-family: 'Jost', sans-serif;
     font-weight: 500; 
   }
+
+  .card-img{
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+    max-height: 140px;
+  }
