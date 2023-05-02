@@ -150,7 +150,7 @@
         <img src="img/profile-ali.jpeg" class="card-img" alt="..." height="250px" style="object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">Alikhan</h5>
-          <p class="card-text">When u gonna give me ur profile pic, u update urself lah</p>
+          <p class="card-text">This is a try to fill out some text so I will not look empty ://</p>
         </div>
         <div class="card-footer bg-warning">
           <small class="text-muted">Front-end Developer</small>
